@@ -24,7 +24,7 @@ jobs:
     steps:
       - uses: trstringer/manual-approval@v1
         with:
-            secret: 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
+            secret: ${{ github.TOKEN }}
             approvers: pappu112
             minimum-approvals: 1
             issue-title: "Deploying v1.3.5 to prod from staging"
