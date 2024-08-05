@@ -23,9 +23,9 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: trstringer/manual-approval@v1
-          with:
-            secret: ${{ github.TOKEN }}
-            approvers: user1,user2,org-team1
+        with:
+            secret: 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
+            approvers: pappu112
             minimum-approvals: 1
             issue-title: "Deploying v1.3.5 to prod from staging"
             issue-body: "Please approve or deny the deployment of version v1.3.5."
